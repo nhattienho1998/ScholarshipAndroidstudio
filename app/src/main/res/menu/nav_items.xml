@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/sharp_home_black_48dp"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_articles"
+        android:icon="@drawable/sharp_import_contacts_black_48dp"
+        android:title="@string/nav_articles" />
+    <item
+        android:id="@+id/nav_scholarships"
+        android:icon="@drawable/baseline_school_black_48dp"
+        android:title="@string/nav_scholarships" />
+    <item
+        android:id="@+id/nav_notif"
+        android:icon="@drawable/sharp_notifications_active_black_48dp"
+        android:title="@string/nav_notif" />
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/sharp_person_black_48dp"
+        android:title="@string/nav_account" />
+</menu>
