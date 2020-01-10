@@ -45,12 +45,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/textShortDes"
+            android:textSize="16sp"
+            android:textColor="#000000"
             android:text="Amount: $2000"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textDeadline"
             android:layout_below="@+id/textAmount"
+            android:textSize="16sp"
+            android:textColor="#000000"
             android:text="Deadline: January 31, 2020"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

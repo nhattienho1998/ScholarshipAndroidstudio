@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".DetailArticleActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:text="10 Amazing Benefits of Studying Abroad"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/textAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By Unigo \n 05/24/2019"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/imageArticle"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner01"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Studying abroad is more than just an academic experience — it’s a life experience. Here is a comprehensive list of 10 amazing benefits of studying abroad."
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="1. Gain a broader understanding of the world"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="* Studying abroad could help you become a more mature version of yourself \n
+* The IES Abroad Alumni Survey* reported that 97% of students that study abroad find it helps improve their maturity\n
+* 95% of students also found it had a lasting impact on their worldview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="2. Global networking opportunities"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="* Studying abroad could help you network with people abroad \n
+* Over 50% of students that study abroad keep in touch with friends they’ve made even after returning*\n
+* Having links around the world may help with job and business opportunities"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="3. Employers value international experience"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="* Studying abroad is something that could be put on your resume\n
+* 64% of employers believe that international experience is important for recruitment*\n
+* International study experience may make you less likely to face long-term unemployment*"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="4. Learning new languages"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="* Studying abroad may help you pick up new languages\n
+* Speaking another language could help with employment and networking opportunities\n
+* com reports that bilingual employees learn between 5% and 20% more than the base rate*"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="5. Develop new skills for your life and career"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="* Studying abroad may help you develop new skills due to unfamiliar circumstances\n
+* 62% of students in the IES Abroad Alumni Survey* said studying abroad helped them discover new career directions \n
+* You could also develop new life skills which can help with your everyday life"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

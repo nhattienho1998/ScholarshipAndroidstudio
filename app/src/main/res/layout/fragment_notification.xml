@@ -6,9 +6,26 @@
     tools:context=".NotificationFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/nav_notif" />
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:text="@string/nav_notification"
+            android:textColor="@android:color/background_dark"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cardNotification"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:overScrollMode="never"/>
+    </LinearLayout>
 
 </FrameLayout>
