@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_BM"
+        android:title="Business and Marketing " />
+    <item
+        android:title="Computer Science"
+        android:id="@+id/nav_IT"/>
+    <item
+        android:title="Education"
+        android:id="@+id/nav_Education" />
+    <item
+        android:title="Medical"
+        android:id="@+id/nav_Medical"/>
+    <item
+        android:title="Law"
+        android:id="@+id/nav_Law"/>
+</menu>

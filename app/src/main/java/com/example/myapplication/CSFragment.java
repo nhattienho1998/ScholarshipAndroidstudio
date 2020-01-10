@@ -17,13 +17,11 @@ import java.util.List;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class HomeFragment extends Fragment {
+public class CSFragment extends Fragment {
 
 
-
-    public HomeFragment() {
+    public CSFragment() {
         // Required empty public constructor
-
     }
 
 
@@ -31,9 +29,9 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_cs, container, false);
 
-        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.cardList);
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.cardListCS);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
         linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         recyclerView.setLayoutManager(linearLayoutManager);
@@ -44,12 +42,8 @@ public class HomeFragment extends Fragment {
         itemHomeInfoList.add(new ItemHomeInfo("abc",R.drawable.banner001,"abc"));
         ItemHomeAdapter itemHomeAdapter = new ItemHomeAdapter(itemHomeInfoList);
         recyclerView.setAdapter(itemHomeAdapter);
-
         // Inflate the layout for this fragment
         return view;
     }
-
-
-
 
 }
